@@ -7,7 +7,7 @@ MATLAB scripts from my Numerical Computing class at McGill University (Fall 2025
 `lupp.m` performs LU factorization with pivoting.
 
 `question3a.m` investigates numerical accuracy and conditioning when solving a linear system with a Hilbert matrix. Determing a true x value in the system $Ax = b$ and computing its own x to compare:
-- The relative residual $\frac{||b - A x_c||_2}{||A||_2 \ ||x_c||_2}$
+- The relative residual $\frac{‖b - A x_c‖_2}{||A||_2 \ ||x_c||_2}$
 - The relative forward error $\frac{||x_c - x_t||_2}{||x_t||_2}$
 - The theoretical error bound based on conditioning and machine precision $\varepsilon \ ||A||_2 \ ||A^{-1}||_2$
 
